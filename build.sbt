@@ -14,7 +14,9 @@ libraryDependencies ++= Seq(
   "org.scalatra" %% "scalatra-specs2" % "2.0.3" % "test",
   "ch.qos.logback" % "logback-classic" % "1.0.0" % "runtime",
   "org.eclipse.jetty" % "jetty-webapp" % "7.5.4.v20111024" % "container",
-  "javax.servlet" % "servlet-api" % "2.5" % "provided"
+  "javax.servlet" % "servlet-api" % "2.5" % "provided",
+  "org.im4java" % "im4java" % "1.2.0",
+  "com.amazonaws" % "aws-java-sdk" % "1.0.002"
 )
 
 resolvers += "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
