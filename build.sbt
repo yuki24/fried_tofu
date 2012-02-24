@@ -1,3 +1,5 @@
+import com.typesafe.startscript.StartScriptPlugin
+
 organization := "net.yuki24"
 
 name := "fried_tofu"
@@ -20,3 +22,5 @@ libraryDependencies ++= Seq(
 )
 
 resolvers += "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
+
+seq(StartScriptPlugin.startScriptForClassesSettings: _*)
