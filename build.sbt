@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
   "org.eclipse.jetty" % "jetty-webapp" % "7.5.4.v20111024" % "container",
   "javax.servlet" % "servlet-api" % "2.5" % "provided",
   "org.im4java" % "im4java" % "1.2.0",
-  "com.amazonaws" % "aws-java-sdk" % "1.0.002"
+  "com.amazonaws" % "aws-java-sdk" % "1.3.3"
 )
 
 resolvers += "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
