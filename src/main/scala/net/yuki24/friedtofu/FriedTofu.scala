@@ -3,7 +3,7 @@ package net.yuki24.friedtofu
 import org.scalatra._
 import scalate.ScalateSupport
 
-class FriedTofu extends ScalatraFilter with ScalateSupport {
+class FriedTofu extends ScalatraServlet with ScalateSupport {
 
   get("/full/*") {
     val image = new Image(multiParams("splat")(0))
